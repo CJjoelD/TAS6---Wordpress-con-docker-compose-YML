@@ -25,35 +25,35 @@ Implementar un entorno de WordPress utilizando Docker Compose mediante un archiv
 mkdir wordpress-docker  
 cd wordpress-docker
 
-![][image1]
+
 <img src="img/Captura de pantalla 2026-05-20 160410.png" alt="descripción">
 
 # **Crear el archivo YAML usando nano**
 
 nano docker-compose.yml
 
-![][image2]
+
 <img src="img/cp2.png" alt="descripción">
 
 # **4\. Ejecutar Docker Compose**
 
 docker compose up \-d
 
-![][image3]
+
 <img src="img/cp3.png" alt="descripción">
 **ver los contenedores**   
 docker ps \-a
 
-![][image4]
+
 <img src="img/cap4.png" alt="descripción">
 # **6\. Abrir los hosts en el navegador**
 
 ## **WordPress**
 
-![][image5]  
+ 
 <img src="img/cap5.png" alt="descripción">
 phpMyAdmin   
-![][image6]
+
 <img src="img/cap6.png" alt="descripción">
 <img src="img/cap7.png" alt="descripción">
 # **Resultados**
